@@ -1,0 +1,11 @@
+{
+  "name": "Beer",
+  "packageManager": "yarn@4.0.1",
+  "workspaces":[
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@moonrepo/cli": "^1.16.1"
+  }
+}
